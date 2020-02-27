@@ -1,3 +1,7 @@
 $(".header-right > a").click(function(){
-    $(".hamburger-menu").addClass("hamburger-menu.active");
+    $(".hamburger-menu").addClass("active");
+});
+
+$(".hamburger-menu a").click(function() {
+    $(".hamburger-menu").removeClass("active");
 });
